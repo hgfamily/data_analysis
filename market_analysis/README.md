@@ -45,7 +45,7 @@ response:响应值,整数型变量,1代表用户有响应,0代表用户未响应
 #项目文件目录
 ---
 * market_activity.xlsx->会员活动数据集
-* market_predict.ipynb->数据分析程序  
+* market_predict.ipynb->数据分析程序(可直接打开查看数据分析过程和结果)  
 
 #项目运行环境
 ---
