@@ -6,10 +6,10 @@
 
 #项目数据
 ---
-*数据记录数:48000<br>
-*特征数:13<br>
-*是否有NA值:有<br>
-*是否有异常值:无<br>
+数据记录数:48000<br>
+特征数:13<br>
+是否有NA值:有<br>
+是否有异常值:无<br>
 以下是数据集的13个特征变量:<br>
   1.age:年龄,整数型变量<br>
   2.total_pageviews:总页面浏览量,整数型变量<br>
@@ -37,10 +37,10 @@ response:响应值,整数型变量,1代表用户有响应,0代表用户未响应
 
 #项目主要应用技术
 ---
-*主要用到的库:Numpy、Pandas和Sklearn<br>
-*使用OneHotEncoder进行二值化标志转换<br>
-*使用数据降维SelectPercentile结合基于方差分析的f_classif选择最明显的特征<br>
-*使用管道方法Pipe、交叉检验cross_val_score、分层采样StratifiedKFold与集成分类算法AdaBoostClassifier获得最佳模型参数<br>
+* 主要用到的库:Numpy、Pandas和Sklearn<br>
+* 使用OneHotEncoder进行二值化标志转换<br>
+* 使用数据降维SelectPercentile结合基于方差分析的f_classif选择最明显的特征<br>
+* 使用管道方法Pipe、交叉检验cross_val_score、分层采样StratifiedKFold与集成分类算法AdaBoostClassifier获得最佳模型参数<br>
 
 #项目文件目录
 ---
